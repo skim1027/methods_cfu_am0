@@ -71,7 +71,25 @@ puts lunch_option.swapcase
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+#I declared two variables, number_of_shoes and number_of_backpacks assigned to integer object 20 and 7, respectively.
+number_of_shoes = 20
+number_of_backpacks = 7
 
+# to_s method is called on the number_of_shoes variable, which stores the integer 20.
+# This method will convert the object integer to object string.
+# To check that it converts the object from integer to string, I am running the .class method to show that the original variable is an integer, and with the to_s method, that it converts to string.
+# The first puts method will print the return value of integer.
+# The second puts method will print the return value of string.
+puts number_of_shoes.class
+puts number_of_shoes.to_s.class
+
+
+# The positive? method is called on the number_of_backpacks variable, which stores the integer 7.
+# This method will tell you if the integer is great than 0. 
+# This method will return true.
+# The puts method will print the return value of true. 
+
+puts number_of_backpacks.positive?
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
