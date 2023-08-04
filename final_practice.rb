@@ -24,10 +24,22 @@ puts greet2
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+def custom_greeting(name)
+    "Happy Friday #{name}!"
+end
 
+custom_greet1 = custom_greeting("Jiji")
+custom_greet2 = custom_greeting("Momo")
+
+puts custom_greet1
+puts custom_greet2
+
+# What is the return value of your method?
+    # My return values are "Happy Friday Jiji!" and "Happy Friday Momo!"
+# How many arguments did you pass your method?
+    # I passed one arguement for each method.
+# What data type was your argument(s)?
+    # My data type for the argument is string for both. 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
