@@ -6,8 +6,20 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
+def greeting
+    "Happy Friday!"
+end
+
+greet1 = greeting
+greet2 = greeting
+
+puts greet1
+puts greet2
+
 # What is the return value of your method?
+    # The return value is "Happy Friday!" for both greet1 and greet2.
 # How many arguments did you pass your method?
+    # No arguments were passed in this method.
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
