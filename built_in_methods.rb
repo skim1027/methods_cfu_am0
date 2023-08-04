@@ -96,3 +96,23 @@ puts number_of_backpacks.positive?
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# Two variables favorite_months and even_numbers containing array of string object and integer object are created.
+  
+favorite_months = ["March", "June", "September", "November"]
+even_numbers = [4, 2, 10, 48, 6]
+
+# The index method is called on the favorite_months array.
+# An argument of "June" is passed.
+# This method will tell you the index position of the element June.
+# The index position starts at 0, and June is in the second position. 
+# Therefore, the method will return 1.
+# The puts method will print the return value 1.
+puts favorite_months.index("June")
+
+# The sort! method is called on the even_numbers array.
+# This method will sort the elements in order. 
+# Since the object is integer, the method will order the smallest number to biggest number.
+# The method will return [2, 4, 6, 10, 48] 
+# The puts method will print the array in order.
+puts even_numbers.sort!
