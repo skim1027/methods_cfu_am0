@@ -50,6 +50,19 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# The length method is called on the last_name variable, which stores the string object "Kim".
+# This method will count the number of character included in the object "Kim"
+# This will return 3, as there are three characters in the object "Kim".
+# The puts method will print the return value of length (3) to the console. 
+last_name = "Kim"
+puts last_name.length
+
+# The swapcase method is called on the lunch_option variable, which stores the string obejct "Sandwitch".
+# This method will reverse the cases of each character. Upper case will be downcased and lowercase will be upcased.
+# This will return "sADNWITCH".
+# The puts method will print the return value to the console.
+lunch_option = "Sandwitch"
+puts lunch_option.swapcase
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
