@@ -64,10 +64,23 @@ puts greet_person2
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+def square(number)
+    result = number * number
+    return result, "The square of #{number} is #{result}"
+ end
+ 
+ sq1 = square(8)
+ sq2 = square(3)
+ 
+ puts sq1
+ puts sq2
 
+# What is the return value of your method?
+    # The return values are  64; The square of 8 is 64 and 9; The square of 3 is 9
+# How many arguments did you pass your method?
+    # I passed one argument.
+# What data type was your argument(s)?
+    # My data type for the argument is an integer. 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
