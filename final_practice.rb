@@ -43,9 +43,22 @@ puts custom_greet2
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
+def greet_person(first, middle, last)
+    "Nice to meet you #{first} #{middle} #{last}."
+end
+
+greet_person1 = greet_person("Homer", "Jay", "Simpson")
+greet_person2 = greet_person("Marge", "Jeacqueline", "Simpson")
+
+puts greet_person1
+puts greet_person2
+
 # What is the return value of your method?
+    # The return values are "Nice to meet you Homer Jay Simpson." and " "Nice to meet you Marge Jeacqueline Simpson."
 # How many arguments did you pass your method?
+    # I passed three arguments per each method.
 # What data type was your argument(s)?
+    # My data type for the argument is string.
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
